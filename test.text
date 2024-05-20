@@ -1,0 +1,9 @@
+This tells the way for pushing only the inner folder directly inside the github without the outer folder:
+
+make a folder1 -> inside that folder2 -> make a file
+git remote add origin github_repo_url (make a repo without readme file)
+git init
+git add .
+git commit -m "inital commit"
+git push -u origin master
+
